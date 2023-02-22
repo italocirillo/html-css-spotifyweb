@@ -9,7 +9,9 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+
 /* MAIN */
+
 /* SEZIONE PRINCIPALE */
 .sezione-principale{
     height: calc(100vh - 90px);
@@ -27,15 +29,44 @@ body{
 
 /*SEZIONE ALBUM*/
 .sezione-album{
-    width: 100%;
+    width: calc(100% - 230px);
     overflow-y: auto;
 }
-/* Header */
+/* HEADER ALBUM*/
 header{
     height: 90px;
+    width: calc(100% - 230px);
     background-color: cadetblue;
     position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
+.bottone-header{
+    display: inline-block;
+    border: 1px solid white;
+    padding: 1em 3em;
+    border-radius: 25px;
+    font-size: 0.8rem;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* MAIN ALBUM*/
+/* Griglia */
+.riga{
+    padding-top: 10em;
+    display: flex;
+    flex-wrap: wrap;
+}
+.col{
+    min-width: calc((100vw - 230px) / 6);
+    min-height: calc((100vw - 230px) / 6);
+    padding: 1em;
+}
+
+
 
 /* SEZIONE PLAYER MUSICALE */
 .sezione-player{
@@ -48,9 +79,9 @@ header{
 /*DEBUG*/
 .box-debug{
     margin: 0 auto;
-    margin: 1em;
+    margin: 2em 0.1em;
     width: 80%;
-    height: 80%;
+    height: 50%;
     border: 2px solid aqua;
 }
 
@@ -59,5 +90,9 @@ header{
     width: 80%;
     height: 1000px;
     border: 2px solid chocolate;
-    padding-top: 10em;
+    margin-top: 10em;
+}
+.box-debug-carta{
+    border: 1px solid red;
+    height: 100%;  
 }
