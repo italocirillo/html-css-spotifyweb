@@ -50,6 +50,16 @@ ul{
     font-size: 0.8rem;
     font-weight: 700;
 }
+.creato-per h2,
+.artisti h2{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+.creato-per p,
+.artisti p{
+    text-align: inherit;
+    padding-left: 2em;
+}
 
 /* MAIN */
 .sezione-principale{
@@ -74,7 +84,7 @@ ul{
 }
 /* Header */
 header{
-    height: 60px;
+    height: 80px;
     width: calc(100%);
     background-color: rgba(0, 0, 0, 0.5);
     position: sticky;
@@ -120,7 +130,9 @@ nav ul{
     width: calc(100% / 6);
     padding: 1em;
 }
-
+.artisti img{
+    border-radius: 50%;
+}
 
 
 /* SEZIONE PLAYER MUSICALE */
