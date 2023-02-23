@@ -28,6 +28,10 @@ ul{
 .padding-verticale-2{
     padding: 2em 0em;
 }
+.padding-sinistra-1{
+    padding-left: 1em;
+}
+
 
 /* TIPOGRAFIA */
 .titoli-sezioni{
@@ -61,25 +65,104 @@ ul{
     padding-left: 2em;
 }
 
+
 /* MAIN */
 .sezione-principale{
-    height: calc(100% - 60px);
+    height: calc(100% - 80px);
     width: 100%;
     display: flex;
     /* debug */
     background-color: #141922;
 }
+
 /*BARRA LATERALE*/
 .barra-laterale{
-    width: 160px;
+    width: 200px;
     height: 100%;
-    /* debug */
-    background-color: orange;
+    background-color: black;
+}
+.logo{
+    padding: 1em 2.5em 1em 1em;
+}
+.barra-laterale ul{
+    color: #6f6f6f;
+    font-weight: 700;
+    font-size: 0.8rem;
+    padding-left: 1em;
+    padding-bottom: 2.5em;
+}
+.barra-laterale li{
+    padding: 0.1em 0em;
+}
+.barra-laterale ul img{
+    opacity: 0.5;
+    max-width: 15%;
+}
+.barra-laterale a{
+    color: #6f6f6f;
+    vertical-align: super;
+    text-decoration: none;
+    font-weight: 600;
+}
+.barra-laterale h4{
+    text-transform: uppercase;
+    color: white;
+    padding-left: 1em;
+}
+/* 2 lista */
+.playlist{
+    padding: 1em;
+}
+.playlist button{
+    border-style: none;
+}
+.playlist i{
+    font-weight:bolder;
+    font-size: 1.2rem;
+    padding: 0.4em;
+    background-color: #a3a3a3;
+}
+.playlist a{
+    padding-left: 0.5em;
+    vertical-align: middle;
+    font-weight: 600;
+}
+.playlist ul{
+    padding: 1em 0em 0em 0em;
+}
+.playlist li{
+    padding-bottom: 1em;
+}
+/* Barra laterale footer */
+.icona-download{
+    width: 8%;
+    vertical-align: middle;
+}
+.barra-laterale-footer a{
+    font-size: 0.7rem;
+    vertical-align: middle;
+}
+.barra-laterale-footer hr{
+    border-color: #6f6f6f;
+    margin: 0.2em 1em 0.2em 0em;
+}
+.icona-utente{
+    opacity: 1;
+    width: 10%;
+    background-color: #808080;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.barra-laterale-footer .nome-utente{
+    color: white;
+    display: inline-block;
+    font-size: 0.8em;
+    vertical-align: middle;
 }
 
 /*SEZIONE ALBUM*/
 .sezione-album{
-    width: calc(100% - 160px);
+    width: calc(100% - 200px);
     overflow-y: auto;
 }
 /* Header */
@@ -106,8 +189,8 @@ header{
     text-decoration: none;
     text-transform: uppercase;
 }
-/* Nav */
-nav ul{
+/* Nav album*/
+.sezione-album nav ul{
     width: 60%;
     margin: 0 auto;
     color: #6d6f74;
@@ -137,29 +220,9 @@ nav ul{
 
 /* SEZIONE PLAYER MUSICALE */
 .sezione-player{
-    height: 60px;
-    /* debug */
-    background-color: sienna;
+    height: 80px;
+    background-color: #282828;
 }
 
 
-/*DEBUG*/
-.box-debug{
-    margin: 0 auto;
-    margin: 2em 0.1em;
-    width: 80%;
-    height: 50%;
-    border: 2px solid aqua;
-}
 
-.box-debug-main{
-    margin: 0 auto;
-    width: 80%;
-    height: 1000px;
-    border: 2px solid chocolate;
-    margin-top: 10em;
-}
-/* .box-debug-carta{
-    border: 1px solid red;
-    height: 100%;  
-} */
