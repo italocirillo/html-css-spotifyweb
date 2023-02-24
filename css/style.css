@@ -21,6 +21,7 @@ ul{
     list-style: none;
 }
 
+
 /* UTILITY */
 .padding-verticale-1{
     padding: 1em 0em;
@@ -81,6 +82,7 @@ ul{
     flex-direction: column;
     justify-content: space-between;
 }
+
 /* Barra laterale main */
 .barra-laterale-main{
     overflow-y: auto;
@@ -111,6 +113,7 @@ ul{
     text-transform: uppercase;
     color: white;
 }
+
 /* 2 lista */
 .playlist{
     padding: 1em;
@@ -135,6 +138,7 @@ ul{
 .playlist li{
     padding-bottom: 1em;
 }
+
 /* Barra laterale footer */
 .barra-laterale-footer{
     z-index: 10;
@@ -167,6 +171,7 @@ ul{
     font-size: 0.8em;
     vertical-align: middle;
 }
+
 /*Barra  laterale  responsive xs*/
 .barra-laterale-xs{
     display: none;
@@ -197,6 +202,7 @@ i .immagine-mini{
     width: calc(100% - 200px);
     overflow-y: auto;
 }
+
 /* Header */
 header{
     height: 80px;
@@ -221,6 +227,7 @@ header{
     text-decoration: none;
     text-transform: uppercase;
 }
+
 /* Nav album*/
 .sezione-album nav ul{
     width: 60%;
@@ -234,8 +241,8 @@ header{
     justify-content: center;
     gap: 1em;
 }
-/* Main album */
-/* Griglia */
+
+/* Griglia Main album*/
 .riga{
     padding: 1em;
     display: flex;
@@ -254,7 +261,116 @@ header{
 .sezione-player{
     height: 80px;
     background-color: #282828;
+    display: flex;
 }
 
+/* Sezione-canzone */
+.canzone{
+    padding: 1em 0em;
+    min-width: 200px;
+    height: 100%;
+    display: flex;
+}
+.canzone img{
+    height: 100%;
+    padding: 0em 0.5em;
+}
+.info-canzone{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sezione-icone-canzone{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-left: 2.5em;
+}
+.nome-artista{
+    color: white;
+}
+.nome-brano{
+    color: #848484;
+    font-size: 0.5rem;
+}
+.canzone i{
+    color: #848484;
+    font-size: 0.8rem;
+    vertical-align: middle;
+    padding-left: 0.5em;
+}
+
+/* Sezione-riproduzione */
+.sezione-riproduzione{
+    width: calc(100% - 200px * 2);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.riproduzione{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contenitore-barra{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.contenitore-bottoni{
+    min-width: 210px;
+}
+.bottoni{
+    color: white;
+    font-size: 1rem;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    line-height: 2em;
+    vertical-align: middle;
+}
+.bottone-grande{
+    color: white;
+    font-size: 2rem;
+    padding-bottom: 0em;
+    padding-left: 0.5em;
+}
+.barra{
+    width: 100%;
+    height: 4px;
+    background-color: #848484;
+    margin: 0em 1.2em;
+    border-radius: 20px;
+}
+.barra-interna{
+    width: 20%;
+    height: 4px;
+    background-color: #d3d3d3;
+    border-radius: 20px;
+}
+.minutaggio{
+    color: #f1f1f1;
+    font-size: 0.7rem;
+    font-weight: bolder;
+}
+
+/* Sezione-volume */
+.volume{
+    padding: 1em 0em;
+    min-width: 200px;
+    height: 100%;
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+.volume i{
+    color: #f1f1f1;
+    font-size: 0.8rem;
+}
+.volume .barra{
+    width: 100%;
+    margin-left: 0em;    
+}
 
 

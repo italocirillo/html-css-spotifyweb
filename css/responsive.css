@@ -11,6 +11,11 @@
     .col{
         width: calc(100% / 2);
     }
+    .sezione-icone-canzone{
+        flex-direction: column;
+        gap: 0.2em;
+        justify-content: center;
+    }
 }
 /* XS */
 @media screen and (max-width:600px) {
