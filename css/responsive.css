@@ -22,4 +22,11 @@
     .sezione-album{
         width: calc(100% - 40px);
     }
+    /* Barra laterale */
+    .contenitore-a-scomparsa{
+        display: none;
+    }
+    .barra-laterale-xs{
+        display: block;
+    }
 }
