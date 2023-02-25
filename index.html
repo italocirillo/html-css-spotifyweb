@@ -8,6 +8,7 @@
     <!-- style -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/effetti.css">
     <!-- font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -29,22 +30,22 @@
                             <!-- Logo -->
                             <img class="logo" src="img/logo.svg" alt="logo">
                             <!-- Lista -->
-                            <ul>
+                            <ul class="menu-sezioni">
                                 <li>
-                                    <i><img src="img/home.svg" alt="home"></i>
+                                    <i><img class="icone-sezioni selezionato" src="img/home.svg" alt="home"></i>
                                     <a href="">Home</a> 
                                 </li>
                                 <li>
-                                    <i><img src="img/search.svg" alt="home"></i>
+                                    <i><img class="icone-sezioni" src="img/search.svg" alt="home"></i>
                                     <a href="">Cerca</a> 
                                 </li>
                                 <li>
-                                    <i><img src="img/libreria.svg" alt="home"></i>
+                                    <i><img class="icone-sezioni" src="img/libreria.svg" alt="home"></i>
                                     <a href="">La tua libraria</a> 
                                 </li>
                             </ul>
                             <!-- 2 Lista Playlist -->
-                            <h4>playlist</h4>
+                            <h4 class="padding-left-1">playlist</h4>
                             <div class="playlist">
                                 <button>
                                     <span>
@@ -74,7 +75,7 @@
                     </div>
 
                     <!-- Footer barra laterale -->
-                    <div class="barra-laterale-footer">
+                    <div class="barra-laterale-footer padding-left-1">
                         <div class="contenitore-a-scomparsa">
                             <i><img class="icona-download" src="img/download.svg" alt="download"></i>
                             <a href="">Installa app</a> 
@@ -99,7 +100,7 @@
 
                     <nav>
                         <ul class="padding-verticale-2">
-                            <li>in evidenza</li>
+                            <li class="sezione-scelta">in evidenza</li>
                             <li>podcast</li>
                             <li>classifiche</li>
                             <li>generi e mood</li>
@@ -117,42 +118,60 @@
                             <div class="riga">
                                 <div class="col">
                                     <div class="carta">
-                                        <img src="img/metal_lifting.jpg" alt="metal_lifting">
+                                        <div class="relative">
+                                            <img class="filtro-player" src="img/metal_lifting.jpg" alt="metal_lifting">
+                                            <i class="bottone-filtro fa-regular fa-circle-play"></i>
+                                        </div>
                                         <h3 class="titoli-carte">Heavy Metal</h3>
                                         <p class="sottotitolo">Subtitle</p>
                                     </div>
                                 </div>
                                 <div class="col">
                                     <div class="carta">
-                                        <img src="img/stranger.jpeg" alt="stranger_things">
+                                        <div class="relative">
+                                            <img class="filtro-player" src="img/stranger.jpeg" alt="stranger_things">
+                                            <i class="bottone-filtro fa-regular fa-circle-play"></i>
+                                        </div>
                                         <h3 class="titoli-carte">Stranger Thingd, Vol.1(a Netflix Original Series Soundtrack)</h3>
                                         <p class="sottotitolo">Kyle Dixon & Micheal Stein</p>
                                     </div>
                                 </div>
                                 <div class="col">
                                     <div class="carta">
-                                        <img src="img/aquietplace.jpeg" alt="a_quiet_place">
+                                        <div class="relative">
+                                            <img class="filtro-player" src="img/aquietplace.jpeg" alt="a_quiet_place">
+                                            <i class="bottone-filtro fa-regular fa-circle-play"></i>
+                                        </div>
                                         <h3 class="titoli-carte">A a quiet place</h3>
                                         <p class="sottotitolo">Subtitle</p>
                                     </div>
                                 </div>
                                 <div class="col">
                                     <div class="carta">
-                                        <img src="img/split.jpeg" alt="split">
+                                        <div class="relative">
+                                            <img class="filtro-player" src="img/split.jpeg" alt="split">
+                                            <i class="bottone-filtro fa-regular fa-circle-play"></i>
+                                        </div>
                                         <h3 class="titoli-carte">Split</h3>
                                         <p class="sottotitolo">Subtitle</p>
                                     </div>
                                 </div>
                                 <div class="col">
                                     <div class="carta">
-                                        <img src="img/cure.jpeg" alt="a_cure_for_wellness">
+                                        <div class="relative">
+                                            <img class="filtro-player" src="img/cure.jpeg" alt="a_cure_for_wellness">
+                                            <i class="bottone-filtro fa-regular fa-circle-play"></i>
+                                        </div>
                                         <h3 class="titoli-carte">A cure for wellness</h3>
                                         <p class="sottotitolo">Subtitle</p>
                                     </div>
                                 </div>
                                 <div class="col">
                                     <div class="carta">
-                                        <img src="img/sinister.jpeg" alt="sinister">
+                                        <div class="relative">
+                                            <img class="filtro-player" src="img/sinister.jpeg" alt="sinister">
+                                            <i class="bottone-filtro fa-regular fa-circle-play"></i>
+                                        </div>
                                         <h3 class="titoli-carte">Sinister</h3>
                                         <p class="sottotitolo">Subtitle</p>
                                     </div>
@@ -239,6 +258,9 @@
                                 <div class="barra-interna">
 
                                 </div>
+                                <div class="cerchietto">
+
+                                </div>
                             </div>
                             <p class="minutaggio">4:35</p>
                         </div>
@@ -250,7 +272,12 @@
                     <span><i class="fa-solid fa-display"></i></span>
                     <span><i class="fa-solid fa-volume-high"></i></span>
                     <div class="barra">
-                        <div class="barra-interna"></div>
+                        <div class="barra-interna">
+                    
+                        </div>
+                        <div class="cerchietto">
+
+                        </div>
                     </div>
                 </div>
             </section>

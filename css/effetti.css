@@ -1,0 +1,116 @@
+/* HOVER */
+/* Header */
+.bottone-header:hover{
+    transform: scale(1.1);
+}
+/* Barra laterale */
+li:hover{
+    cursor: pointer;
+    color: white;
+}
+li:hover a{
+    cursor: pointer;
+    color: white;
+}
+.playlist i:hover{
+    cursor: pointer;
+    background-color: white;
+}
+.playlist a:hover{
+    cursor: pointer;
+    color: white;
+}
+.playlist button:hover +a{
+    color: white;
+}
+.barra-laterale-footer a:hover{
+    color: white;
+}
+/* Player */
+/* Barra */
+.nome-brano:hover{
+    cursor: pointer;
+    color: white;
+    text-decoration: underline;
+}
+.canzone i:hover{
+    cursor: pointer;
+    color: white;
+}
+.barra:hover{
+    cursor: pointer;
+}
+.barra:hover .barra-interna{
+    background-color: #beff58;
+}
+.barra:hover .cerchietto{
+    display: block;
+}
+/* Bottoni player */
+.bottone-grande:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.bottoni:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+/* Volume */
+.volume i:hover{
+    cursor: pointer;
+    color: #beff58;
+}
+/* Album */
+.filtro-player:hover{
+    filter: brightness(0.4);
+    cursor: pointer;
+}
+.bottone-filtro{
+    color: white;
+    font-size: 3rem;
+    opacity: 0; 
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+.filtro-player:hover +i{
+    opacity: 1;
+}
+.bottone-filtro:hover{
+    opacity: 1;
+}
+
+
+/* ACTIVE */
+/* Barra di lato */
+.menu-sezioni li:active{
+    border-left: 3px solid #beff58;
+}
+.menu-sezioni li:first-child::before{
+    content: "";
+    font-size: 2em;
+    vertical-align: 20%;
+    border-left: 3px solid #beff58;
+}
+.selezionato{
+    opacity: 1;
+}
+/* Nav */
+.sezione-scelta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sezione-scelta:after{
+    padding: 1em;
+    content: "";
+    font-size: 0rem;
+    border-bottom: 3px solid #beff58;
+    width: 40%;
+    line-height: 0%;
+}
+.sezione-album nav li:active{
+    border-bottom: 3px solid #beff58;
+}

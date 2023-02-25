@@ -29,7 +29,12 @@ ul{
 .padding-verticale-2{
     padding: 2em 0em;
 }
-
+.padding-left-1{
+    padding-left: 1em;
+}
+.relative{
+    position: relative;
+}
 
 /* TIPOGRAFIA */
 .titoli-sezioni{
@@ -82,13 +87,12 @@ ul{
     flex-direction: column;
     justify-content: space-between;
 }
-
 /* Barra laterale main */
 .barra-laterale-main{
     overflow-y: auto;
 }
 .logo{
-    padding: 1em 2.5em 1em 0em;
+    padding: 1em 2.5em 1em 1em;
 }
 .barra-laterale ul{
     color: #6f6f6f;
@@ -99,7 +103,10 @@ ul{
 .barra-laterale li{
     padding: 0.1em 0em;
 }
-.barra-laterale ul img{
+.menu-sezioni img{
+    margin-left: 1em;
+}
+.icone-sezioni{
     opacity: 0.5;
     max-width: 15%;
 }
@@ -117,7 +124,7 @@ ul{
 /* 2 lista */
 .playlist{
     padding: 1em;
-    padding-left: 0em;
+    padding-left: 1em;
 }
 .playlist button{
     border-style: none;
@@ -142,9 +149,6 @@ ul{
 /* Barra laterale footer */
 .barra-laterale-footer{
     z-index: 10;
-}
-.contenitore-a-scomparsa{
-    padding-left: 1em;  
 }
 .icona-download{
     width: 8%;
@@ -226,6 +230,7 @@ header{
     color: white;
     text-decoration: none;
     text-transform: uppercase;
+    margin-right: 2em;
 }
 
 /* Nav album*/
@@ -342,6 +347,8 @@ header{
     background-color: #848484;
     margin: 0em 1.2em;
     border-radius: 20px;
+    display: flex;
+    align-items: center;
 }
 .barra-interna{
     width: 20%;
@@ -353,6 +360,13 @@ header{
     color: #f1f1f1;
     font-size: 0.7rem;
     font-weight: bolder;
+}
+.cerchietto{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    display: none;
 }
 
 /* Sezione-volume */
